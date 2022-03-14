@@ -1,0 +1,29 @@
+using System;
+
+namespace ConsoleApp24
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string letter;
+            Console.Write("Metn Gir  : ");
+            letter = Console.ReadLine();
+            string[] words = letter.Split(' ');
+            Console.WriteLine("soz Sayı :" + words.Length);
+            foreach (string var in words)
+            {
+                Console.WriteLine(var);
+            }
+            Console.ReadKey();
+        }
+
+
+
+
+
+
+
+
+    }
+}

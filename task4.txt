@@ -1,0 +1,37 @@
+using System;
+
+namespace ConsoleApp24
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int input= 10;
+
+
+            Console.WriteLine( FindFirst(10));
+
+
+        }
+        static int[] FindFirst( int a)
+        {
+            int[] number = new int[5];
+
+            Array.Resize(ref number, number.Length + 1);
+            number[number.Length - 1] = a;
+
+            
+            
+            return number;
+
+
+        }
+
+
+
+
+
+
+
+    }
+}
